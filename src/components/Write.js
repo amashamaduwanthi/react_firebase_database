@@ -39,6 +39,7 @@ function Write() {
       <br />
       <br />
       <br />
+      <button className='button1' onClick={ () => navigate("/updateread")}>GO UPDATE READ</button> <br />
       <button className='button1' onClick={ () => navigate("/read")}>GO READ PAGE</button>
     </div>
   )

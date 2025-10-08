@@ -30,6 +30,7 @@ function Read() {
           </li>
         ) )}
       </ul>
+      <button className='button1' onClick={ () => navigate("/updateread")}>GO UPDATE READ</button> <br />
       <button className='button1' onClick={ () => navigate("/")}>GO HOMEPAGE</button>
     </div>
   )
